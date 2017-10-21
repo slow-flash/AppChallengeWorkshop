@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="0dp"
+    android:id="@+id/item_info_container">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/car_model_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            tools:text="Civic"
+            android:textSize="20dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:gravity="center_vertical"
+            android:textColor="#2B3D4D"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/car_make_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            tools:text="Honda"
+            android:textSize="15dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:gravity="center_vertical"
+            android:textColor="#9E9E9E"
+            android:paddingLeft="10dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/car_year_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        tools:text="2015"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#9E9E9E"
+        android:padding="20dp"/>
+
+</LinearLayout>
